@@ -25,7 +25,7 @@ const navItems = [
 ];
 
 const Header: FC = () => {
-  return <div>Header</div>;
+  return <section>Header</section>;
 };
 
 export default Header;

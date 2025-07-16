@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 const Intro: FC = () => {
-  return <div>Intro</div>;
+  return <section>Intro</section>;
 };
 
 export default Intro;

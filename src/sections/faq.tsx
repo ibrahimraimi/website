@@ -25,7 +25,7 @@ const faqs = [
 ];
 
 const FAQs: FC = () => {
-  return <div>FAQs</div>;
+  return <section>FAQs</section>;
 };
 
 export default FAQs;
