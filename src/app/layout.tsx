@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import {Archivo} from "next/font/google"
 import "./globals.css";
+
+const archivo = Archivo({ subsets: ["latin"], display: "swap", weight: "variable", variable: "--font-archivo" });
 
 export const metadata: Metadata = {
   title: "Minimal Single Page Portfolio",
@@ -13,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={"antialiased"}>{children}</body>
+      <body className={`${archivo.variable} font-sans antialiased bg-stone-200 text-stone-900`}>{children}</body>
     </html>
   );
 }

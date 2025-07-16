@@ -1,3 +1,11 @@
+import { Fragment } from "react";
+
+import Header from "@/sections/site-header";
+
 export default function Home() {
-  return <h1>Hello world</h1>;
+  return (
+    <Fragment>
+      <Header />
+    </Fragment>
+  );
 }
