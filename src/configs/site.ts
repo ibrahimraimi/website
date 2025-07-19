@@ -25,6 +25,10 @@ export const navItems = [
     href: "#intro",
   },
   {
+    label: "Services",
+    href: "#services"
+  },
+  {
     label: "Selected Works",
     href: "#projects",
   },
