@@ -13,7 +13,7 @@ const archivo = Archivo({
 
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.name,
+    default: `${siteConfig.name} — Freelance Web Developer & Designer`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
