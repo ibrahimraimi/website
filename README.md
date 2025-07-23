@@ -1,5 +1,7 @@
 # 🧠 My Internet Brain
 
+![Banner](./src/assets/images/banner.png)
+
 Welcome to my digital home — a space where design meets code, creativity meets strategy, and ideas find form.
 
 ## ✨ About
