@@ -13,14 +13,16 @@ const Button = (
   return (
     <button
       className={twMerge(
-        "h-14 px-6 rounded-full hover:bg-charcoal hover:text-bone transition duration-[0.3s] delay-200 border border-charcoal uppercase inline-flex items-center gap-2",
+        "h-14 px-6 rounded-full uppercase inline-flex items-center gap-2",
         variant === "primary" &&
+          "hover:bg-sage hover:text-white text-bone bg-charcoal transition hover:border-transparent duration-[0.3s] delay-200 border border-charcoal",
+        variant === "secondary" &&
           "bg-charcoal text-bone hover:bg-sage hover:text-white hover:border-transparent",
-        variant === "secondary" && "",
-        variant === "text" && "h-auto px-0 border-transparent",
+        variant === "text" &&
+          "h-auto px-0 border-transparent hover:focus:not-sr-only",
         className
       )}
-      {...props}
+      {...rest}
     >
       <span>{children}</span>
       {iconAfter && <span>{iconAfter}</span>}

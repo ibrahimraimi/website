@@ -18,6 +18,7 @@ const Hero: FC = () => {
             <div className="flex flex-col mt-10 items-start gap-6">
               <Button
                 variant="primary"
+                className=""
                 iconAfter={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

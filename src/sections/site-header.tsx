@@ -29,12 +29,6 @@ const Header: FC = () => {
                 <rect x="3" y="7" width="18" height="2" fill="currentColor" />
               </svg>
             </div>
-            <Button
-              variant="primary"
-              className="h-11 px-6 rounded-full border border-charcoal uppercase hidden md:inline-flex items-center hover:bg-charcoal hover:text-bone transition duration-[0.3s] delay-200"
-            >
-              Contact Me
-            </Button>
           </div>
         </div>
       </div>

@@ -5,5 +5,15 @@ import Projects from "./projects";
 import Testimonials from "./testimonials";
 import FAQs from "./faq";
 import Intro from "./intro";
+import About from "./about";
 
-export { SiteHeader, SiteFooter, Hero, Projects, Testimonials, FAQs, Intro };
+export {
+  SiteHeader,
+  SiteFooter,
+  Hero,
+  Projects,
+  Testimonials,
+  FAQs,
+  Intro,
+  About,
+};
